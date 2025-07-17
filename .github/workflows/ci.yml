@@ -15,7 +15,7 @@ jobs:
 
       - name: Setup Java
         uses: actions/setup-java@v4
-          with:
+        with:
             distribution: temurin
             java-version: 17
 
